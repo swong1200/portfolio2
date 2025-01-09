@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Github, Linkedin, Mail } from 'lucide-react'
+import headshot from '../img/headshot.jpg'
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ function Introduction() {
   return (
     <section className="mb-16 text-center">
       <Image
-        src="/placeholder.svg?height=150&width=150"
+        src={headshot}
         alt="Jane Doe"
         width={150}
         height={150}
