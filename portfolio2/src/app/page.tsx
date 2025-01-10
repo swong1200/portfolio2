@@ -1,9 +1,11 @@
-import Image from 'next/image'
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Github, Linkedin, Mail } from 'lucide-react'
-import headshot from '../img/headshot.jpg'
+import Image from 'next/image';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { Github, Linkedin, Mail } from 'lucide-react';
+import headshot from '../img/headshot.jpg';
+import wwdLogo from '../img/wwdLogo.png';
+import projects from '../utils/projects.json';
 
 export default function Home() {
   return (
@@ -16,18 +18,25 @@ export default function Home() {
         <Contact />
       </main>
     </div>
-  )
+  );
 }
 
 function Header() {
   return (
     <header className="flex justify-between items-center mb-8">
-      <h1 className="text-2xl font-bold">Jane Doe</h1>
+      {/* <h1 className="text-2xl font-bold">Stu Wong</h1> */}
+      <Image
+        src={wwdLogo}
+        alt="Wong Web Dev"
+        width={100}
+        height={100}
+        className="mb-4"
+      />
       <Button variant="outline" className="dark:text-white">
         Toggle Theme
       </Button>
     </header>
-  )
+  );
 }
 
 function Introduction() {
@@ -35,55 +44,65 @@ function Introduction() {
     <section className="mb-16 text-center">
       <Image
         src={headshot}
-        alt="Jane Doe"
-        width={150}
-        height={150}
+        alt="Stu Wong"
+        width={200}
+        height={200}
         className="rounded-full mx-auto mb-4"
       />
-      <h2 className="text-4xl font-bold mb-4">Web Developer & Designer</h2>
+      <h2 className="text-4xl font-bold mb-4">Wong Web Dev</h2>
       <p className="text-xl text-gray-600 dark:text-gray-300">
         Crafting beautiful and functional web experiences
       </p>
     </section>
-  )
+  );
 }
 
 function Skills() {
   const skills = [
-    "React", "Next.js", "TypeScript", "Node.js", "CSS", "Tailwind CSS",
-    "GraphQL", "REST APIs", "Git", "Responsive Design"
-  ]
+    'React',
+    'Next.js',
+    'TypeScript',
+    'Node.js',
+    'CSS',
+    'Tailwind CSS',
+    'GraphQL',
+    'REST APIs',
+    'Git',
+    'Responsive Design',
+  ];
 
   return (
     <section className="mb-16">
       <h3 className="text-2xl font-bold mb-4">Skills</h3>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill) => (
-          <Badge key={skill} variant="secondary">{skill}</Badge>
+          <Badge key={skill} variant="secondary">
+            {skill}
+          </Badge>
         ))}
       </div>
     </section>
-  )
+  );
 }
 
 function Projects() {
-  const projects = [
-    {
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce solution with React and Node.js",
-      image: "/placeholder.svg?height=200&width=300"
-    },
-    {
-      title: "Task Management App",
-      description: "A responsive web app for managing tasks and projects",
-      image: "/placeholder.svg?height=200&width=300"
-    },
-    {
-      title: "Portfolio Website",
-      description: "A customizable portfolio template for developers",
-      image: "/placeholder.svg?height=200&width=300"
-    }
-  ]
+//   const projects = [
+//     {
+//       title: 'E-commerce Platform',
+//       description: 'A full-stack e-commerce solution with React and Node.js',
+//       image: '/placeholder.svg?height=200&width=300',
+//     },
+//     {
+//       title: 'Task Management App',
+//       description: 'A responsive web app for managing tasks and projects',
+//       image: '/placeholder.svg?height=200&width=300',
+//     },
+//     {
+//       title: 'Portfolio Website',
+//       description: 'A customizable portfolio template for developers',
+//       image: '/placeholder.svg?height=200&width=300',
+//     },
+//   ];
 
   return (
     <section className="mb-16">
@@ -100,13 +119,15 @@ function Projects() {
                 className="rounded-lg mb-4"
               />
               <h4 className="text-xl font-semibold mb-2">{project.title}</h4>
-              <p className="text-gray-600 dark:text-gray-300">{project.description}</p>
+              <p className="text-gray-600 dark:text-gray-300">
+                {project.description}
+              </p>
             </CardContent>
           </Card>
         ))}
       </div>
     </section>
-  )
+  );
 }
 
 function Contact() {
@@ -125,6 +146,5 @@ function Contact() {
         </Button>
       </div>
     </section>
-  )
+  );
 }
-
