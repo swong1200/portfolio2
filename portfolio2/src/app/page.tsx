@@ -1,8 +1,11 @@
+'use client'
+
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Moon, Sun } from 'lucide-react';
+import { useTheme } from '@/lib/useTheme';
 import headshot from '../img/headshot.jpg';
 import wwdLogo from '../img/wwdLogo.png';
 import projects from '../utils/projects.json';
@@ -14,10 +17,12 @@ import puckman from '../img/puckman.png';
 import scheduler from '../img/scheduler.png';
 
 export default function Home() {
+    const { theme, toggleTheme } = useTheme()
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 dark:from-gray-900 dark:to-gray-800">
       <main className="container mx-auto px-4 py-8">
-        <Header />
+        <Header toggleTheme={toggleTheme} theme={theme} />
         <Introduction />
         <Skills />
         <Projects />
@@ -27,7 +32,7 @@ export default function Home() {
   );
 }
 
-function Header() {
+function Header({ toggleTheme, theme }: { toggleTheme: () => void, theme: 'light' | 'dark' }) {
   return (
     <header className="flex justify-between items-center mb-8">
       <Image
@@ -37,8 +42,10 @@ function Header() {
         height={48}
         className="mb-4"
       />
-      <Button variant="outline" className="dark:text-white">
-        Toggle Theme
+      <Button variant="outline" onClick={toggleTheme} className="dark:text-white">
+
+      {theme === 'light' ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
+      <span className="sr-only">Toggle theme</span>
       </Button>
     </header>
   );
