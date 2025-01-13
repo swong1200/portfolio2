@@ -30,12 +30,11 @@ export default function Home() {
 function Header() {
   return (
     <header className="flex justify-between items-center mb-8">
-      {/* <h1 className="text-2xl font-bold">Stu Wong</h1> */}
       <Image
         src={wwdLogo}
         alt="Wong Web Dev"
-        width={100}
-        height={100}
+        width={48}
+        height={48}
         className="mb-4"
       />
       <Button variant="outline" className="dark:text-white">
