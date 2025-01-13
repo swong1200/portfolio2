@@ -6,6 +6,12 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 import headshot from '../img/headshot.jpg';
 import wwdLogo from '../img/wwdLogo.png';
 import projects from '../utils/projects.json';
+import AH1 from '../img/AH1.png';
+import burger from '../img/burger.png';
+import newscycle from '../img/newscycle.png';
+import notetaker from '../img/notetaker.png';
+import puckman from '../img/puckman.png';
+import scheduler from '../img/scheduler.png';
 
 export default function Home() {
   return (
@@ -86,33 +92,26 @@ function Skills() {
 }
 
 function Projects() {
-//   const projects = [
-//     {
-//       title: 'E-commerce Platform',
-//       description: 'A full-stack e-commerce solution with React and Node.js',
-//       image: '/placeholder.svg?height=200&width=300',
-//     },
-//     {
-//       title: 'Task Management App',
-//       description: 'A responsive web app for managing tasks and projects',
-//       image: '/placeholder.svg?height=200&width=300',
-//     },
-//     {
-//       title: 'Portfolio Website',
-//       description: 'A customizable portfolio template for developers',
-//       image: '/placeholder.svg?height=200&width=300',
-//     },
-//   ];
+const projImgs = [
+    newscycle,
+    scheduler,
+    AH1,
+    notetaker,
+    burger,
+    puckman,
+]
+
 
   return (
     <section className="mb-16">
       <h3 className="text-2xl font-bold mb-4">Projects</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
+            
           <Card key={index}>
             <CardContent className="p-4">
               <Image
-                src={project.image}
+                src={projImgs[index]}
                 alt={project.title}
                 width={300}
                 height={200}

@@ -5,7 +5,8 @@
     "description": "A news article app that allows the user to quickly cycle through articles.  The user can then read them, share them or save them for later. This is a full stack MERN application.",
     "github":
       "https://github.com/csbryant/NewsCycle/",
-    "href": "http://fathomless-scrubland-72060.herokuapp.com/"
+    "href": "http://fathomless-scrubland-72060.herokuapp.com/",
+    "image": "/img/newscycle.png"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "description": "A calendar app that allows you to schedule hourly appointments during the current day.  This app utilizes JavaScript and Local Storage.",
     "github":
       "https://github.com/swong1200/workDayScheduler/",
-    "href": "https://swong1200.github.io/workDayScheduler/"
+    "href": "https://swong1200.github.io/workDayScheduler/",
+    "image": "/img/scheduler.png"
   },
   {
     "id": 3,
@@ -22,7 +24,8 @@
 
     "github":
       "https://github.com/csbryant/ArtistHop/",
-    "href": "https://csbryant.github.io/ArtistHop/"
+    "href": "https://csbryant.github.io/ArtistHop/",
+    "image": "/img/AH1.png"
   },
   {
     "id": 4,
@@ -31,7 +34,8 @@
 
     "github":
       "https://github.com/swong1200/noteTaker/",
-    "href": "https://safe-escarpment-06303.herokuapp.com/"
+    "href": "https://safe-escarpment-06303.herokuapp.com/",
+    "image": "/img/notetaker.png"
   },
   {
     "id": 5,
@@ -40,7 +44,8 @@
 
     "github":
       "https://github.com/swong1200/burgerApp/",
-    "href": "https://mighty-sierra-72046.herokuapp.com/"
+    "href": "https://mighty-sierra-72046.herokuapp.com/",
+    "image": "/img/burger.png"
   },
   {
     "id": 6,
@@ -49,6 +54,7 @@
 
     "github":
       "https://github.com/JOCECODE/PucMan_Chase/",
-    "href": "https://warm-sierra-45425.herokuapp.com/"
+    "href": "https://warm-sierra-45425.herokuapp.com/",
+    "image": "/img/puckman.png"
   }
 ]
