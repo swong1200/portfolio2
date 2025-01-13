@@ -83,7 +83,7 @@ function Skills() {
     'Netlify',
     'Heroku',
     'WordPress',
-    'Shopify'
+    'Shopify',
   ];
 
   return (
@@ -101,22 +101,13 @@ function Skills() {
 }
 
 function Projects() {
-const projImgs = [
-    newscycle,
-    scheduler,
-    AH1,
-    notetaker,
-    burger,
-    puckman,
-]
-
+  const projImgs = [newscycle, scheduler, AH1, notetaker, burger, puckman];
 
   return (
     <section className="mb-16">
       <h3 className="text-2xl font-bold mb-4">Projects</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
-            
           <Card key={index}>
             <CardContent className="p-4">
               <Image
@@ -143,14 +134,28 @@ function Contact() {
     <section>
       <h3 className="text-2xl font-bold mb-4">Get in Touch</h3>
       <div className="flex justify-center space-x-4">
-        <Button variant="outline">
-          <Github className="mr-2 h-4 w-4" /> GitHub
+        <Button variant="outline" asChild>
+          <a
+            href="https://github.com/swong1200"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Github className="mr-2 h-4 w-4" /> GitHub
+          </a>
         </Button>
-        <Button variant="outline">
-          <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
+        <Button variant="outline" asChild>
+          <a
+            href="https://www.linkedin.com/in/stuart-z-wong"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
+          </a>
         </Button>
-        <Button variant="outline">
-          <Mail className="mr-2 h-4 w-4" /> Email
+        <Button variant="outline" asChild>
+          <a href="mailto:swong31@gmail.com">
+            <Mail className="mr-2 h-4 w-4" /> Email
+          </a>
         </Button>
       </div>
     </section>
