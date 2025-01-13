@@ -69,12 +69,22 @@ function Skills() {
     'Next.js',
     'TypeScript',
     'Node.js',
+    'Express',
     'CSS',
     'Tailwind CSS',
-    'GraphQL',
+    'HTML',
     'REST APIs',
     'Git',
     'Responsive Design',
+    'jQuery',
+    'Bootstrap',
+    'MySQL',
+    'Prisma',
+    'MongoDB',
+    'Netlify',
+    'Heroku',
+    'WordPress',
+    'Shopify'
   ];
 
   return (
