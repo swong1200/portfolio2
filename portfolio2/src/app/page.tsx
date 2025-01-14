@@ -38,11 +38,11 @@ function Header({ toggleTheme, theme }: { toggleTheme: () => void, theme: 'light
       <Image
         src={wwdLogo}
         alt="Wong Web Dev"
-        width={48}
-        height={48}
+        width={51}
+        height={51}
         className="mb-4"
       />
-      <Button variant="outline" onClick={toggleTheme} className="dark:text-white">
+      <Button variant="outline" size={'lg'} onClick={toggleTheme} className="dark:text-white">
 
       {theme === 'light' ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
       <span className="sr-only">Toggle theme</span>
