@@ -38,9 +38,9 @@ function Header({ toggleTheme, theme }: { toggleTheme: () => void, theme: 'light
       <Image
         src={wwdLogo}
         alt="Wong Web Dev"
-        width={51}
-        height={51}
-        className="mb-4"
+        width={65}
+        height={65}
+        className="rounded-md mb-4 shadow-sm"
       />
       <Button variant="outline" size={'lg'} onClick={toggleTheme} className="dark:text-white">
 
