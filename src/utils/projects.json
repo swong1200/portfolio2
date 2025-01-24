@@ -50,7 +50,7 @@
   {
     "id": 6,
     "title": "PuckMan Chase",
-    "description": ": An HTML game using a physics engine (Planck.js).  The object of the game is for the player to avoid the asteroids for as long as possible.  The app is built with Node, MySQL/Sequelize and JavaScript.",
+    "description": "An HTML game using a physics engine (Planck.js).  The object of the game is for the player to avoid the asteroids for as long as possible.  The app is built with Node, MySQL/Sequelize and JavaScript.",
 
     "github":
       "https://github.com/JOCECODE/PucMan_Chase/",

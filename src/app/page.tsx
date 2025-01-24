@@ -61,7 +61,8 @@ function Introduction() {
         height={200}
         className="rounded-full mx-auto mb-4"
       />
-      <h2 className="text-4xl font-bold mb-4">Wong Web Dev</h2>
+      <h1 className="text-4xl font-bold mb-4">Stuart Wong</h1>
+      <h2 className='text-2xl font-bold mb-4'>Full Stack Software Engineer</h2>
       <p className="text-xl text-gray-600 dark:text-gray-300">
         Crafting beautiful and functional web experiences
       </p>
