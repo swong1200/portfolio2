@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Stuart Z Wong | Web Developer',
+  title: 'Stuart Wong | Official Website',
   description:
-    'Portfolio of Stuart Wong, a web developer specializing in React and Next.js',
+    'Welcome to Stuart Wong’s official website. Explore my work, background, and latest updates.',
 };

@@ -1,59 +1,85 @@
 [
   {
     "id": 1,
-    "title": "NewsCycle",
+    "title": "REALSOUL",
     "description": "A news article app that allows the user to quickly cycle through articles.  The user can then read them, share them or save them for later. This is a full stack MERN application.",
-    "github":
-      "https://github.com/csbryant/NewsCycle/",
-    "href": "http://fathomless-scrubland-72060.herokuapp.com/",
+    "github": "",
+    "href": "https://www.realsoul.us/",
     "image": "/img/newscycle.png"
   },
   {
     "id": 2,
+    "title": "EVCA",
+    "description": "A news article app that allows the user to quickly cycle through articles.  The user can then read them, share them or save them for later. This is a full stack MERN application.",
+    "github": "",
+    "href": "https://goevca.org/",
+    "image": "/img/newscycle.png"
+  },
+  {
+    "id": 3,
+    "title": "Youth Wellness Movement",
+    "description": "A news article app that allows the user to quickly cycle through articles.  The user can then read them, share them or save them for later. This is a full stack MERN application.",
+    "github": "",
+    "href": "https://youthwellness.com/",
+    "image": "/img/newscycle.png"
+  },
+  {
+    "id": 4,
+    "title": "SACC AAPI Night Market",
+    "description": "A news article app that allows the user to quickly cycle through articles.  The user can then read them, share them or save them for later. This is a full stack MERN application.",
+    "github": "",
+    "href": "https://aapinightmarket.com/",
+    "image": "/img/newscycle.png"
+  },
+  {
+    "id": 5,
+    "title": "NewsCycle",
+    "description": "A news article app that allows the user to quickly cycle through articles.  The user can then read them, share them or save them for later. This is a full stack MERN application.",
+    "github": "https://github.com/csbryant/NewsCycle/",
+    "href": "http://fathomless-scrubland-72060.herokuapp.com/",
+    "image": "/img/newscycle.png"
+  },
+  {
+    "id": 6,
     "title": "Work Day Scheduler",
     "description": "A calendar app that allows you to schedule hourly appointments during the current day.  This app utilizes JavaScript and Local Storage.",
-    "github":
-      "https://github.com/swong1200/workDayScheduler/",
+    "github": "https://github.com/swong1200/workDayScheduler/",
     "href": "https://swong1200.github.io/workDayScheduler/",
     "image": "/img/scheduler.png"
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Artist Hop",
     "description": "A web application designed to help the user discover new musical artists based upon artists they already know.  Search for a band/artist and then discover artists related to that search.  This is a front-end app built with JQuery.",
 
-    "github":
-      "https://github.com/csbryant/ArtistHop/",
+    "github": "https://github.com/csbryant/ArtistHop/",
     "href": "https://csbryant.github.io/ArtistHop/",
     "image": "/img/AH1.png"
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "Note Taker",
     "description": "A Notepad application that reads and writes to a .json file.  This app is built with Node, Express and JavaScript.",
 
-    "github":
-      "https://github.com/swong1200/noteTaker/",
+    "github": "https://github.com/swong1200/noteTaker/",
     "href": "https://safe-escarpment-06303.herokuapp.com/",
     "image": "/img/notetaker.png"
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "Burger App",
     "description": "An MVC app that utilizes Handlebars, Node and MySQL/Sequelize.  The user can create a burger and then click to 'Eat it'.",
 
-    "github":
-      "https://github.com/swong1200/burgerApp/",
+    "github": "https://github.com/swong1200/burgerApp/",
     "href": "https://mighty-sierra-72046.herokuapp.com/",
     "image": "/img/burger.png"
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "PuckMan Chase",
     "description": "An HTML game using a physics engine (Planck.js).  The object of the game is for the player to avoid the asteroids for as long as possible.  The app is built with Node, MySQL/Sequelize and JavaScript.",
 
-    "github":
-      "https://github.com/JOCECODE/PucMan_Chase/",
+    "github": "https://github.com/JOCECODE/PucMan_Chase/",
     "href": "https://warm-sierra-45425.herokuapp.com/",
     "image": "/img/puckman.png"
   }

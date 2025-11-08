@@ -1,21 +1,23 @@
-'use client';
-
+// layout.tsx
 import './globals.css';
 import { Inter } from 'next/font/google';
-import { useTheme } from '@/lib/useTheme';
+import { metadata } from './metadata';
+import ClientLayout from './ClientLayout';
 
 const inter = Inter({ subsets: ['latin'] });
+
+export { metadata };
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const { theme } = useTheme();
-
   return (
-    <html lang="en" className={theme}>
-      <body className={inter.className}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={inter.className}>
+        <ClientLayout>{children}</ClientLayout>
+      </body>
     </html>
   );
 }
