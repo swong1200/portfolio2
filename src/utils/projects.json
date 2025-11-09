@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "REALSOUL",
-    "description": "A news article app that allows the user to quickly cycle through articles.  The user can then read them, share them or save them for later. This is a full stack MERN application.",
+    "description": "Developed a mission-driven, curriculum-focused website for REALSOUL (realsoul.us), an arts organization creating K-8 educational resources rooted in social justice, community, and art learning. Implemented a clean, responsive layout that highlights their mission (“At the Crossroads of Social Justice, Art, and Community”), educator guides, teaching materials, and events—all optimized for clarity, accessibility, and multi-device use.",
     "github": "",
     "href": "https://www.realsoul.us/",
     "image": "/img/newscycle.png"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "EVCA",
-    "description": "A news article app that allows the user to quickly cycle through articles.  The user can then read them, share them or save them for later. This is a full stack MERN application.",
+    "description": "Built a modern, responsive website for a west-coast trade association representing EV charging infrastructure companies. The site highlights the organization’s advocacy work, membership benefits, and policy priorities—constructed with a clean layout, clear navigation and content-driven structure to reinforce the association’s professional image.",
     "github": "",
     "href": "https://goevca.org/",
     "image": "/img/newscycle.png"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Youth Wellness Movement",
-    "description": "A news article app that allows the user to quickly cycle through articles.  The user can then read them, share them or save them for later. This is a full stack MERN application.",
+    "description": "Engineered a clean, professional website for the Youth Wellness Movement (youthwellness.com) to clearly communicate its mission of integrating youth, teacher, and community wellness. The site features a well‑structured navigation system, responsive layout, and resource‑rich sections (e.g., Youth Portal, Educators, Research) to support stakeholder engagement and information access.",
     "github": "",
     "href": "https://youthwellness.com/",
     "image": "/img/newscycle.png"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "title": "SACC AAPI Night Market",
-    "description": "A news article app that allows the user to quickly cycle through articles.  The user can then read them, share them or save them for later. This is a full stack MERN application.",
+    "description": "Developed a dynamic and visually engaging website for the AAPI Night Market, highlighting over 50 food vendors, live performances, and cultural attractions. The site features intuitive navigation, vibrant imagery, and responsive design to provide visitors with a seamless preview of the event experience.",
     "github": "",
     "href": "https://aapinightmarket.com/",
     "image": "/img/newscycle.png"
