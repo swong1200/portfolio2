@@ -149,7 +149,7 @@ function Projects() {
       <h3 className="text-2xl font-bold mb-4">Projects</h3>
       <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
         {projects.map((project, index) => (
-          <Card key={index} className="h-full flex flex-col justify-start">
+          <Card key={index} className="h-full flex flex-col justify-start relative hover:shadow-lg transition-shadow duration-200">
             <CardContent className="flex flex-col h-full">
               <Image
                 src={projImgs[index]}
