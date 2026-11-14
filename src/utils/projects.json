@@ -1,86 +1,86 @@
 [
   {
     "id": 1,
-    "title": "REALSOUL",
-    "description": "Developed a mission-driven, curriculum-focused website for REALSOUL (realsoul.us), an arts organization creating K-8 educational resources rooted in social justice, community, and art learning. Implemented a clean, responsive layout that highlights their mission (“At the Crossroads of Social Justice, Art, and Community”), educator guides, teaching materials, and events—all optimized for clarity, accessibility, and multi-device use.",
-    "github": "",
-    "href": "https://www.realsoul.us/",
-    "image": ""
-  },
-  {
-    "id": 2,
-    "title": "EVCA",
-    "description": "Built a modern, responsive website for a west-coast trade association representing EV charging infrastructure companies. The site highlights the organization’s advocacy work, membership benefits, and policy priorities—constructed with a clean layout, clear navigation and content-driven structure to reinforce the association’s professional image.",
-    "github": "",
-    "href": "https://goevca.org/",
-    "image": ""
-  },
-  {
-    "id": 3,
-    "title": "Youth Wellness Movement",
-    "description": "Engineered a clean, professional website for the Youth Wellness Movement (youthwellness.com) to clearly communicate its mission of integrating youth, teacher, and community wellness. The site features a well‑structured navigation system, responsive layout, and resource‑rich sections (e.g., Youth Portal, Educators, Research) to support stakeholder engagement and information access.",
-    "github": "",
-    "href": "https://youthwellness.com/",
-    "image": ""
-  },
-  {
-    "id": 4,
-    "title": "SACC AAPI Night Market",
-    "description": "Developed a dynamic and visually engaging website for the AAPI Night Market, highlighting over 50 food vendors, live performances, and cultural attractions. The site features intuitive navigation, vibrant imagery, and responsive design to provide visitors with a seamless preview of the event experience.",
-    "github": "",
-    "href": "https://aapinightmarket.com/",
-    "image": ""
-  },
-  {
-    "id": 5,
-    "title": "NewsCycle",
-    "description": "A news article app that allows the user to quickly cycle through articles.  The user can then read them, share them or save them for later. This is a full stack MERN application.",
-    "github": "https://github.com/csbryant/NewsCycle/",
-    "href": "http://fathomless-scrubland-72060.herokuapp.com/",
-    "image": "/img/newscycle.png"
-  },
-  {
-    "id": 6,
     "title": "Work Day Scheduler",
-    "description": "A calendar app that allows you to schedule hourly appointments during the current day.  This app utilizes JavaScript and Local Storage.",
+    "description": "Daily planner for scheduling hourly appointments, with entries saved in Local Storage. Built with JavaScript.",
     "github": "https://github.com/swong1200/workDayScheduler/",
     "href": "https://swong1200.github.io/workDayScheduler/",
     "image": "/img/scheduler.png"
   },
   {
-    "id": 7,
+    "id": 2,
     "title": "Artist Hop",
-    "description": "A web application designed to help the user discover new musical artists based upon artists they already know.  Search for a band/artist and then discover artists related to that search.  This is a front-end app built with JQuery.",
-
-    "github": "https://github.com/csbryant/ArtistHop/",
-    "href": "https://csbryant.github.io/ArtistHop/",
+    "description": "Front-end app for discovering new musical artists related to one you search for, using the Last.fm and TheAudioDB APIs. Built with jQuery. Team project.",
+    "github": "https://github.com/swong1200/ArtistHop/",
+    "href": "https://swong1200.github.io/ArtistHop/",
     "image": "/img/AH1.png"
+  },
+  {
+    "id": 3,
+    "title": "REALSOUL",
+    "description": "Responsive website for REALSOUL, an arts organization creating K-8 educational resources rooted in social justice, community, and art learning.",
+    "github": "",
+    "href": "https://www.realsoul.us/",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "title": "EVCA",
+    "description": "Responsive website for a west-coast trade association representing EV charging infrastructure companies, covering its advocacy work, membership, and policy priorities.",
+    "github": "",
+    "href": "https://goevca.org/",
+    "image": ""
+  },
+  {
+    "id": 5,
+    "title": "Youth Wellness Movement",
+    "description": "Responsive website for the Youth Wellness Movement, covering its mission and its resources for youth, educators, and research.",
+    "github": "",
+    "href": "https://youthwellness.com/",
+    "image": ""
+  },
+  {
+    "id": 6,
+    "title": "SACC AAPI Night Market",
+    "description": "Website previewing the AAPI Night Market, featuring over 50 food vendors and event attractions.",
+    "github": "",
+    "href": "https://aapinightmarket.com/",
+    "image": ""
+  },
+  {
+    "id": 7,
+    "title": "NewsCycle",
+    "description": "Full stack MERN app for quickly cycling through top news headlines, with options to read, share, or save articles for later. Team project.",
+    "github": "https://github.com/csbryant/NewsCycle/",
+    "href": "https://github.com/csbryant/NewsCycle/",
+    "image": "/img/newscycle.png",
+    "codeOnly": true
   },
   {
     "id": 8,
     "title": "Note Taker",
-    "description": "A Notepad application that reads and writes to a .json file.  This app is built with Node, Express and JavaScript.",
-
+    "description": "Notepad app that reads and writes notes to a JSON file. Built with Node, Express, and JavaScript.",
     "github": "https://github.com/swong1200/noteTaker/",
-    "href": "https://safe-escarpment-06303.herokuapp.com/",
-    "image": "/img/notetaker.png"
+    "href": "https://github.com/swong1200/noteTaker/",
+    "image": "/img/notetaker.png",
+    "codeOnly": true
   },
   {
     "id": 9,
     "title": "Burger App",
-    "description": "An MVC app that utilizes Handlebars, Node and MySQL/Sequelize.  The user can create a burger and then click to 'Eat it'.",
-
+    "description": "MVC app built with Node, Handlebars, and MySQL/Sequelize where you create a burger and click to eat it.",
     "github": "https://github.com/swong1200/burgerApp/",
-    "href": "https://mighty-sierra-72046.herokuapp.com/",
-    "image": "/img/burger.png"
+    "href": "https://github.com/swong1200/burgerApp/",
+    "image": "/img/burger.png",
+    "codeOnly": true
   },
   {
     "id": 10,
     "title": "PuckMan Chase",
-    "description": "An HTML game using a physics engine (Planck.js).  The object of the game is for the player to avoid the asteroids for as long as possible.  The app is built with Node, MySQL/Sequelize and JavaScript.",
-
+    "description": "Browser game using the Planck.js physics engine: avoid the asteroids for as long as you can. Built with Node, MySQL/Sequelize, and JavaScript. Team project.",
     "github": "https://github.com/JOCECODE/PucMan_Chase/",
-    "href": "https://warm-sierra-45425.herokuapp.com/",
-    "image": "/img/puckman.png"
+    "href": "https://github.com/JOCECODE/PucMan_Chase/",
+    "image": "/img/puckman.png",
+    "codeOnly": true
   }
 ]
